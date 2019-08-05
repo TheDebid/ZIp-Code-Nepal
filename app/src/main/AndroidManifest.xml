@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdinnovations.zippostalcodesnepal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsOfNepal"
+            android:label="Map of Nepal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Policy"
+            android:label="Privacy Policy"
+            android:parentActivityName=".AboutApp" />
+        <activity
+            android:name=".PostalDetails"
+            android:label="Postal Code Details"
+            android:parentActivityName=".FindInsideDistrict" />
+        <activity
+            android:name=".FindInsideDistrict"
+            android:label="Post Office Inside Destrict"
+            android:parentActivityName=".FindByDistrict" />
+        <activity
+            android:name=".AboutApp"
+            android:label="About App"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FindByDistrict"
+            android:label="Find By District"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="8fe1336b58d6d13f69511526a48b5d3e91af0d3f" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5994134925636771~9048291918" />
+    </application>
+
+</manifest>

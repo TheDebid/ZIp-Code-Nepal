@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "991089834990",
+    "firebase_url": "https://postal-codes-nepal.firebaseio.com",
+    "project_id": "postal-codes-nepal",
+    "storage_bucket": "postal-codes-nepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991089834990:android:e0a3f57e7bc3edd5",
+        "android_client_info": {
+          "package_name": "com.sdinnovations.zippostalcodesnepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991089834990-ju2kb5dhv0st2fdeihf8v1t8utui52g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUBxPn10UJ_24Mm_WXP29tvSjdrnEiIqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991089834990-ju2kb5dhv0st2fdeihf8v1t8utui52g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
